@@ -21,7 +21,7 @@ public class AppTest
     public void Test2()
     {
         int response = calculator.calcularMayor(1,2,-3);
-        assertEquals(2, response);
+        assertEquals(5, response);
     }
 
     @Test
