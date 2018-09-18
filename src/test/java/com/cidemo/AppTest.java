@@ -12,22 +12,25 @@ public class AppTest
     private Calculator calculator = new Calculator();
 
     @Test
-    public void Test1()
+    public void SiElMayorNumeroEsElPrimerParámetro_Deberia_DevolverElPrimerParametro()
     {
-        int response = calculator.calcularMayor(1,2,3);
-        assertEquals(3, response);
-    }
-    @Test
-    public void Test2()
-    {
-        int response = calculator.calcularMayor(1,2,-3);
-        assertEquals(5, response);
+        int nromayor = calculator.calcularMayor(5,2,4);
+        assertEquals(5, nromayor);
     }
 
     @Test
-    public void Test3()
+    public void SiElMayorNumeroEsElSegundoParámetro_Deberia_DevolverElSegundoParametro()
     {
-        int response = calculator.calcularMayor(1,-2,-3);
-        assertEquals(4, response);
+        int nromayor = calculator.calcularMayor(6,10,2);
+        assertEquals(10, nromayor);
     }
+
+    @Test
+    public void SiElMayorNumeroEsElTercerParámetro_Deberia_DevolverElTercerParametro()
+    {
+        int nromayor = calculator.calcularMayor(5,2,9);
+        assertEquals(9, nromayor);
+    }
+
+
 }
