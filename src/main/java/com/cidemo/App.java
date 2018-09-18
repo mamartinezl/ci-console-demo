@@ -15,6 +15,7 @@ public class App
         Calculator calculator = new Calculator();
         Scanner input = new Scanner(System.in);
         //comentario
+        //comentario2
         System.out.print("Ingresa n1: ");
         int n1 = input.nextInt();
 
