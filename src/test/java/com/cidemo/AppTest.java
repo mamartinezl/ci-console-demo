@@ -28,6 +28,6 @@ public class AppTest
     public void Test3()
     {
         int response = calculator.calcularMayor(1,-2,-3);
-        assertEquals(4, response);
+        assertEquals(1, response);
     }
 }
