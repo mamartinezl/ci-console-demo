@@ -15,7 +15,7 @@ public class AppTest
     public void SiElMayorNumeroEsElPrimerParámetro_Deberia_DevolverElPrimerParametro()
     {
         int nromayor = calculator.calcularMayor(5,2,4);
-        assertEquals(2, nromayor);
+        assertEquals(5, nromayor);
     }
 
     @Test
